@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7328b5c3-94ce-45b6-b385-abad714e92f5" name="Default" comment="teste 2">
+    <list default="true" id="7328b5c3-94ce-45b6-b385-abad714e92f5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Gtasks2.iws" />
@@ -39,20 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.794872" vertical-offset="455" max-vertical-offset="1800">
-              <caret line="24" column="54" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="54" />
+            <state vertical-scroll-proportion="-1.0072993" vertical-offset="960" max-vertical-offset="1860">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71506107" vertical-offset="1243" max-vertical-offset="6000">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1243" max-vertical-offset="6000">
               <caret line="59" column="56" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
               <folding />
             </state>
@@ -101,8 +100,8 @@
         <option value="$PROJECT_DIR$/www/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/server/soket.communication.php" />
         <option value="$PROJECT_DIR$/www/js/index.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/www/index.html" />
       </list>
     </option>
   </component>
@@ -317,7 +316,13 @@
       <option name="project" value="LOCAL" />
       <updated>1414436695897</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="teste 2">
+      <created>1414439413739</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1414439413757</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -480,18 +485,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.794872" vertical-offset="455" max-vertical-offset="1800">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1243" max-vertical-offset="6000">
+          <caret line="59" column="56" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71506107" vertical-offset="1243" max-vertical-offset="6000">
-          <caret line="59" column="56" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
+        <state vertical-scroll-proportion="-1.0072993" vertical-offset="960" max-vertical-offset="1860">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding />
         </state>
       </provider>
