@@ -10,29 +10,45 @@
         <link rel="stylesheet" href="css/bootstrap.theme.css"/>
         <link rel="stylesheet" href="css/bootstrap.css"/>
         <link rel="stylesheet" href="css/style.css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <!--script type="text/javascript" src="js/cordova.js"></script-->
+        <script type="text/javascript" src="js/index.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
 
 
         <title>Gtasks - beta</title>
     </head>
     <body>
         <section class="row">
-            <div class="box-form col-xs-12">
+            <div class="box-form col-xs-12 form-box-ini">
                 <form action="#">
-                    <input type="text" placeholder="Informe o titulo"/>
-                    <input type="text" placeholder="Informe a data"/>
-                    <textarea name="description-box" id="description-box" cols="30" rows="10" placeholder="Informe o assunto"></textarea>
-                    <button id="btn-submit btn btn-default">
-                        Lets go
-                    </button>
+                    <input type="text" placeholder="Informe o titulo" name="title-task"/>
+                    <input type="text" placeholder="Informe a data" name="date-task"/>
+                    <textarea name="desc-task" id="description-box" cols="30" rows="10" placeholder="Informe o assunto"></textarea>
+                    <fieldset class="ui-grid-b">
+                        <div
+                                class="ui-block-a"><input type="button" data-icon="alert" value="mx"
+                                                          class="priority"></div>
+                        <div
+                                class="ui-block-b"><input type="button" data-icon="check"value="md" class="priority"></div>
+                        <div
+                                class="ui-block-c"><input type="button" data-icon="heart" value="min"
+                                                          class="priority"></div>
+                    </fieldset>
                 </form>
+            </div>
+        </section>
+        <section class="contents">
+            <div class="ui-body ui-body-a ui-corner-all">
+                <h3>Heading</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan blandit fermentum. Pellentesque cursus mauris purus, auctor commodo mi ullamcorper nec. Donec semper mattis eros, nec condimentum ante sollicitudin quis. Etiam orci sem, porttitor ut tellus nec, blandit posuere urna. Proin a arcu non lacus pretium faucibus. Aliquam sed est porttitor, ullamcorper urna nec, vehicula lorem. Cras porttitor est lorem, non venenatis diam convallis congue.</p>
             </div>
         </section>
         <footer>
 
         </footer>
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <!--script type="text/javascript" src="js/cordova.js"></script-->
-        <script type="text/javascript" src="js/index.js"></script>
 
     </body>
 </html>
