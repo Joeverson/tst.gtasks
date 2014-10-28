@@ -26,22 +26,26 @@
         <section class="row">
             <div class="box-form col-xs-12 form-box-ini">
                 <form action="#">
-                    <input type="text" placeholder="Informe o titulo" name="title-task"/>
-                    <input type="text" placeholder="Informe a data" name="date-task"/>
-                    <textarea name="desc-task" id="description-box" cols="30" rows="10" placeholder="Informe o assunto"></textarea>
+                    <input type="text" placeholder="Informe o titulo" id="title-task"/>
+                    <input type="text" placeholder="Informe a data" id="date-task"/>
+                    <textarea id="desc-task" cols="30" rows="10" placeholder="Informe o assunto"></textarea>
                     <fieldset class="ui-grid-b">
+                        <div class="ui-block-a ui-btn-icon-top "><input type="button" data-icon="alert"
+                                                                        value="mx" class="priority" data-priority='0'></div>
                         <div
-                                class="ui-block-a"><input type="button" data-icon="alert" value="mx"
+                                class="ui-block-b ui-btn-icon-top"><input type="button" data-icon="check"
+                                                                          data-priority='1' value="md"
+                                                                          class="priority"></div>
+                        <div
+                                class="ui-block-c ui-btn-icon-top"><input type="button" data-priority="2" data-icon="heart"
+                                                                          value="min"
                                                           class="priority"></div>
-                        <div
-                                class="ui-block-b"><input type="button" data-icon="check"value="md" class="priority"></div>
-                        <div
-                                class="ui-block-c"><input type="button" data-icon="heart" value="min"
-                                                          class="priority"></div>
+
                     </fieldset>
                 </form>
             </div>
         </section>
+
         <section class="contents">
             <div class="ui-body ui-body-a ui-corner-all">
                 <h3>Heading</h3>
@@ -49,7 +53,10 @@
             </div>
         </section>
         <footer>
-
+            <a href="#transitionExample" data-transition="slidedown" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-rel="popup">Slide down</a>
+            <div data-role="popup" id="transitionExample" class="ui-content" data-theme="a">
+                <p>PopUp de exemplo para ver se funfa msm</p>
+            </div>
         </footer>
 
     </body>
