@@ -21,7 +21,7 @@ function onDeviceReady() {
 
         $.ajax({
             type: "post",
-            url: "http://127.0.0.1/gtask/soket.communication.php",
+            url: "http://314.bl.ee/gtask/soket.communication.php",
             data: "?title-task="+title+"&date-task="+date+"&desc-task="+desc+"&priority-task="+prio+"&flag=add",
             datatype: "html"
         }).done(function(e){
@@ -30,4 +30,17 @@ function onDeviceReady() {
             console.log(e);
         });
     });
+
+    navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
+        destinationType: Camera.DestinationType.DATA_URL
+    });
+
+    function onSuccess(imageData) {
+        var image = document.getElementById('myImage');
+        image.src = "data:image/jpeg;base64," + imageData;
+    }
+
+    function onFail(message) {
+        alert('Failed because: ' + message);
+    }
 }
